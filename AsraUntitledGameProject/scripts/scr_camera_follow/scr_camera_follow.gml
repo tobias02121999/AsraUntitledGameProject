@@ -11,8 +11,16 @@ var dir = point_direction(x, y, target.x, target.y);
 var lenX = lengthdir_x(spd, dir);
 var lenY = lengthdir_y(spd, dir);
 
-if (dist > threshold)
+if (abs(lenX) <= abs(x - target.x))
+	x += lenX;
+
+if (abs(lenY) <= abs(y - target.y))
+	y += lenY;
+
+/*
+if (lenX < dist)
 {
 	x += lenX;
 	y += lenY;
 }
+*/
