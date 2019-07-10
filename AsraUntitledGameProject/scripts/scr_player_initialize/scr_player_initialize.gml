@@ -1,5 +1,11 @@
 // Initialize the player
 
+// Get the player statistics
+scr_player_statistics();
+
+// Get the player sprites
+scr_player_getSprites();
+
 // Define the player system variables
 playerState = "OVERWORLD"; // The players current state
 velocityX = 0; // The players current X velocity
@@ -10,9 +16,5 @@ overworldPosX = x; // The last saved X position of the player in the overworld
 overworldPosY = y; // The last saved Y position of the player in the overworld
 target = noone; // The current combat target of the player
 ammo = 0; // The current ammo of the player, used for projectile abilities
-
-// Get the player statistics
-scr_player_statistics();
-
-// Get the player sprites
-scr_player_getSprites();
+hp = maxHp; // The current player hp
+potions = 3; // The current amount of potions the player is carrying

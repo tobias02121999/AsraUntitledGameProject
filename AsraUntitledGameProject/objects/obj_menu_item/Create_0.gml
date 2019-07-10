@@ -11,10 +11,10 @@ buttonDistanceY = 75;
 buttonSprite[0] = spr_button;
 buttonSprite[1] = spr_button;
 
-buttonText[0] = "potion";
-buttonText[1] = "back";
+buttonText[0] = "Potion";
+buttonText[1] = "Back";
 
-buttonID[0] = 5;
+buttonID[0] = 9;
 buttonID[1] = 4;
 
 image_xscale = 3;

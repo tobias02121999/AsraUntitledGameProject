@@ -10,10 +10,24 @@ switch (enemyState)
 		
 	// The frozen enemy state
 	case "FREEZE":
+		scr_enemy_die(); // Check for death
 		break;
 		
 	// The dodging enemy state
 	case "DODGE":
 		scr_enemy_dodge();
+		scr_enemy_die(); // Check for death
+		break;
+		
+	// The turn enemy state
+	case "TURN":
+		scr_enemy_turn(); // Choose the next enemy turn
+		scr_enemy_die(); // Check for death
+		break;
+		
+	// The fireball enemy state
+	case "FIREBALL":
+		scr_enemy_strafe(); // Strafe relative to the players position
+		scr_enemy_fireball(); // Shoot a fireball at the player
 		break;
 }

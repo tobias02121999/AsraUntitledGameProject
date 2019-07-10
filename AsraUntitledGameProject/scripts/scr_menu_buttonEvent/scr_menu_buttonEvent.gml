@@ -20,22 +20,7 @@ switch (buttonID)
 		
 	// The combat flee button
 	case 2:
-		var player = obj_player;
-		var enemy = player.target;
-		
-		player.x = player.overworldPosX;
-		player.y = player.overworldPosY;
-		
-		enemy.x = enemy.overworldPosX;
-		enemy.y = enemy.overworldPosY;
-		
-		player.playerState = "OVERWORLD";
-		enemy.enemyState = "OVERWORLD";
-		
-		enemy.alarm[0] = 2;
-		
-		with (obj_combat) instance_destroy();
-		with (self) instance_destroy();
+		scr_combat_abort(); // Abort the current combat
 		break;
 		
 	// The fight fireball button
@@ -56,5 +41,29 @@ switch (buttonID)
 	case 4:
 		instance_create_layer(0, 0, "UI", obj_menu_combat);
 		with (self) instance_destroy();
+		break;
+		
+	// The main start button
+	case 5:
+		room_goto(rm_game);
+		break;
+		
+	// The main quit button
+	case 6:
+		game_end();
+		break;
+		
+	// The game over respawn button
+	case 7:
+		room_restart();
+		break;
+		
+	// The game over quit button
+	case 8:
+		room_goto(rm_main);
+		break;
+		
+	case 9:
+		with (obj_player) scr_player_potion(); // Use a potion
 		break;
 }

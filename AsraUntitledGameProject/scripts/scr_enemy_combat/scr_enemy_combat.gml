@@ -35,3 +35,5 @@ y = enemyPosY;
 // Freeze the player and the enemy
 player.playerState = "FREEZE";
 enemyState = "FREEZE";
+
+player.movementDirection = 90;

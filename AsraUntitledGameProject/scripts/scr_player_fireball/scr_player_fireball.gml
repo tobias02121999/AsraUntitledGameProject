@@ -12,7 +12,7 @@ if (obj_manager.iSelect && ammo >= 1 && alarm[0] <= 0)
 
 if (ammo <= 0 && !instance_exists(obj_fireball))
 {
-	instance_create_layer(0, 0, "UI", obj_menu_combat);
+	//instance_create_layer(0, 0, "UI", obj_menu_combat);
 	
 	x = obj_combat.playerPosX;
 	y = obj_combat.playerPosY;
@@ -20,6 +20,6 @@ if (ammo <= 0 && !instance_exists(obj_fireball))
 	target.x = obj_combat.enemyPosX;
 	target.y = obj_combat.enemyPosY;
 	
-	playerState = "FREEZE";
-	target.enemyState = "FREEZE";
+	playerState = "FREEZE"; // Freeze the player
+	target.enemyState = "TURN"; // Make the enemy choose their next turn
 }

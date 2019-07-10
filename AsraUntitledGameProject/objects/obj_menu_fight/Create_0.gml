@@ -11,8 +11,8 @@ buttonDistanceY = 75;
 buttonSprite[0] = spr_button;
 buttonSprite[1] = spr_button;
 
-buttonText[0] = "fireball";
-buttonText[1] = "back";
+buttonText[0] = "Fireball";
+buttonText[1] = "Back";
 
 buttonID[0] = 3;
 buttonID[1] = 4;

@@ -10,17 +10,30 @@ switch (playerState)
 		scr_player_animate();
 		scr_player_customize();
 		scr_player_getSprites();
+		scr_player_die();
 		break;
 		
 	// The frozen player state
 	case "FREEZE":
+		scr_player_die();
+		scr_player_animate();
+		break;
+		
+	// The dodging player state
+	case "DODGE":
+		scr_player_move(); // Move the player around
+		scr_player_force_apply(false); // Apply force to the player
+		scr_player_combatClamp();
+		scr_player_die();
+		scr_player_animate();
 		break;
 		
 	// The fireball player state
 	case "FIREBALL":
 		scr_player_move(); // Move the player around
-		scr_player_force_apply(false); // Apply force to the player (horizontal)
+		scr_player_force_apply(false); // Apply force to the player
 		scr_player_fireball();
 		scr_player_combatClamp();
+		scr_player_animate();
 		break;
 }

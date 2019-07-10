@@ -1,8 +1,5 @@
 // Initialize the combat object
 
-// Initialize the combat system variables
-
-
 // Initialize the combat statistics variables
 scr_combat_statistics();
 

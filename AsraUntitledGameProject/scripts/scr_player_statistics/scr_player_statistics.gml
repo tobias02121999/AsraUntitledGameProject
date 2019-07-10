@@ -8,3 +8,4 @@ fireballAmmo = 3; // The amount of fireballs the player can shoot in one attack
 gender = "MALE"; // The gender of the player
 bodyType = 0; // The body type of the player
 skinTone = 0; // The skin tone of the player
+maxHp = 10; // The maximum player hp
