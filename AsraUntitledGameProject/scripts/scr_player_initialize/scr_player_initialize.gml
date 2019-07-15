@@ -18,3 +18,12 @@ target = noone; // The current combat target of the player
 ammo = 0; // The current ammo of the player, used for projectile abilities
 hp = maxHp; // The current player hp
 potions = 3; // The current amount of potions the player is carrying
+movementSpeed = movementSpeedWalking; // The amount of force added to the player each frame when moving
+maxVelocity = maxVelocityWalking; // The maximum velocity the player can reach
+isSprinting = false; // Keeps track of if the player is currently sprinting or not
+playerID = 0; // The players current ID
+iSelect = false;
+selectPressed = false;
+
+// Get the user input
+scr_manager_getInput(playerID);

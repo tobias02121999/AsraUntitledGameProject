@@ -19,6 +19,11 @@ switch (gender)
 						sprWalkRight = spr_male_0_0_walk_right;
 						sprWalkUp = spr_male_0_0_walk_up;
 						sprWalkDown = spr_male_0_0_walk_down;
+						
+						sprRunLeft = spr_male_0_0_run_left;
+						sprRunRight = spr_male_0_0_run_right;
+						sprRunUp = spr_male_0_0_run_up;
+						sprRunDown = spr_male_0_0_run_down;
 						break;
 						
 					// Skin tone 1
@@ -27,6 +32,11 @@ switch (gender)
 						sprWalkRight = spr_male_0_1_walk_right;
 						sprWalkUp = spr_male_0_1_walk_up;
 						sprWalkDown = spr_male_0_1_walk_down;
+						
+						sprRunLeft = spr_male_0_1_run_left;
+						sprRunRight = spr_male_0_1_run_right;
+						sprRunUp = spr_male_0_1_run_up;
+						sprRunDown = spr_male_0_1_run_down;
 						break;
 						
 					// Skin tone 2
@@ -35,6 +45,11 @@ switch (gender)
 						sprWalkRight = spr_male_0_2_walk_right;
 						sprWalkUp = spr_male_0_2_walk_up;
 						sprWalkDown = spr_male_0_2_walk_down;
+						
+						sprRunLeft = spr_male_0_2_run_left;
+						sprRunRight = spr_male_0_2_run_right;
+						sprRunUp = spr_male_0_2_run_up;
+						sprRunDown = spr_male_0_2_run_down;
 						break;
 						
 					// Skin tone 3
@@ -43,6 +58,11 @@ switch (gender)
 						sprWalkRight = spr_male_0_3_walk_right;
 						sprWalkUp = spr_male_0_3_walk_up;
 						sprWalkDown = spr_male_0_3_walk_down;
+						
+						sprRunLeft = spr_male_0_3_run_left;
+						sprRunRight = spr_male_0_3_run_right;
+						sprRunUp = spr_male_0_3_run_up;
+						sprRunDown = spr_male_0_3_run_down;						
 						break;
 				}
 				break;
@@ -58,6 +78,11 @@ switch (gender)
 						sprWalkRight = spr_male_1_0_walk_right;
 						sprWalkUp = spr_male_1_0_walk_up;
 						sprWalkDown = spr_male_1_0_walk_down;
+						
+						sprRunLeft = spr_male_1_0_run_left;
+						sprRunRight = spr_male_1_0_run_right;
+						sprRunUp = spr_male_1_0_run_up;
+						sprRunDown = spr_male_1_0_run_down;						
 						break;
 						
 					// Skin tone 1
@@ -66,6 +91,11 @@ switch (gender)
 						sprWalkRight = spr_male_1_1_walk_right;
 						sprWalkUp = spr_male_1_1_walk_up;
 						sprWalkDown = spr_male_1_1_walk_down;
+						
+						sprRunLeft = spr_male_1_1_run_left;
+						sprRunRight = spr_male_1_1_run_right;
+						sprRunUp = spr_male_1_1_run_up;
+						sprRunDown = spr_male_1_1_run_down;								
 						break;
 						
 					// Skin tone 2
@@ -74,6 +104,11 @@ switch (gender)
 						sprWalkRight = spr_male_1_2_walk_right;
 						sprWalkUp = spr_male_1_2_walk_up;
 						sprWalkDown = spr_male_1_2_walk_down;
+						
+						sprRunLeft = spr_male_1_2_run_left;
+						sprRunRight = spr_male_1_2_run_right;
+						sprRunUp = spr_male_1_2_run_up;
+						sprRunDown = spr_male_1_2_run_down;								
 						break;
 						
 					// Skin tone 3
@@ -82,6 +117,11 @@ switch (gender)
 						sprWalkRight = spr_male_1_3_walk_right;
 						sprWalkUp = spr_male_1_3_walk_up;
 						sprWalkDown = spr_male_1_3_walk_down;
+						
+						sprRunLeft = spr_male_1_3_run_left;
+						sprRunRight = spr_male_1_3_run_right;
+						sprRunUp = spr_male_1_3_run_up;
+						sprRunDown = spr_male_1_3_run_down;								
 						break;
 				}
 				break;
@@ -104,6 +144,11 @@ switch (gender)
 						sprWalkRight = spr_female_0_0_walk_right;
 						sprWalkUp = spr_female_0_0_walk_up;
 						sprWalkDown = spr_female_0_0_walk_down;
+						
+						sprRunLeft = spr_female_0_0_run_left;
+						sprRunRight = spr_female_0_0_run_right;
+						sprRunUp = spr_female_0_0_run_up;
+						sprRunDown = spr_female_0_0_run_down;						
 						break;
 						
 					// Skin tone 1
@@ -112,6 +157,11 @@ switch (gender)
 						sprWalkRight = spr_female_0_1_walk_right;
 						sprWalkUp = spr_female_0_1_walk_up;
 						sprWalkDown = spr_female_0_1_walk_down;
+						
+						sprRunLeft = spr_female_0_1_run_left;
+						sprRunRight = spr_female_0_1_run_right;
+						sprRunUp = spr_female_0_1_run_up;
+						sprRunDown = spr_female_0_1_run_down;						
 						break;
 						
 					// Skin tone 2
@@ -120,6 +170,11 @@ switch (gender)
 						sprWalkRight = spr_female_0_2_walk_right;
 						sprWalkUp = spr_female_0_2_walk_up;
 						sprWalkDown = spr_female_0_2_walk_down;
+						
+						sprRunLeft = spr_female_0_2_run_left;
+						sprRunRight = spr_female_0_2_run_right;
+						sprRunUp = spr_female_0_2_run_up;
+						sprRunDown = spr_female_0_2_run_down;						
 						break;
 						
 					// Skin tone 3
@@ -128,6 +183,11 @@ switch (gender)
 						sprWalkRight = spr_female_0_3_walk_right;
 						sprWalkUp = spr_female_0_3_walk_up;
 						sprWalkDown = spr_female_0_3_walk_down;
+						
+						sprRunLeft = spr_female_0_3_run_left;
+						sprRunRight = spr_female_0_3_run_right;
+						sprRunUp = spr_female_0_3_run_up;
+						sprRunDown = spr_female_0_3_run_down;						
 						break;
 				}
 				break;
@@ -143,6 +203,11 @@ switch (gender)
 						sprWalkRight = spr_female_1_0_walk_right;
 						sprWalkUp = spr_female_1_0_walk_up;
 						sprWalkDown = spr_female_1_0_walk_down;
+						
+						sprRunLeft = spr_female_1_0_run_left;
+						sprRunRight = spr_female_1_0_run_right;
+						sprRunUp = spr_female_1_0_run_up;
+						sprRunDown = spr_female_1_0_run_down;
 						break;
 						
 					// Skin tone 1
@@ -151,6 +216,11 @@ switch (gender)
 						sprWalkRight = spr_female_1_1_walk_right;
 						sprWalkUp = spr_female_1_1_walk_up;
 						sprWalkDown = spr_female_1_1_walk_down;
+						
+						sprRunLeft = spr_female_1_1_run_left;
+						sprRunRight = spr_female_1_1_run_right;
+						sprRunUp = spr_female_1_1_run_up;
+						sprRunDown = spr_female_1_1_run_down;
 						break;
 						
 					// Skin tone 2
@@ -159,6 +229,11 @@ switch (gender)
 						sprWalkRight = spr_female_1_2_walk_right;
 						sprWalkUp = spr_female_1_2_walk_up;
 						sprWalkDown = spr_female_1_2_walk_down;
+						
+						sprRunLeft = spr_female_1_2_run_left;
+						sprRunRight = spr_female_1_2_run_right;
+						sprRunUp = spr_female_1_2_run_up;
+						sprRunDown = spr_female_1_2_run_down;
 						break;
 						
 					// Skin tone 3
@@ -167,6 +242,11 @@ switch (gender)
 						sprWalkRight = spr_female_1_3_walk_right;
 						sprWalkUp = spr_female_1_3_walk_up;
 						sprWalkDown = spr_female_1_3_walk_down;
+						
+						sprRunLeft = spr_female_1_3_run_left;
+						sprRunRight = spr_female_1_3_run_right;
+						sprRunUp = spr_female_1_3_run_up;
+						sprRunDown = spr_female_1_3_run_down;						
 						break;
 				}
 				break;

@@ -2,17 +2,17 @@
 depth = -y;
 
 // Rotate the tree
-var dist = abs(image_angle - angleTarget);
+var dist = abs(angle - angleTarget);
 var spd = dist * angleSpeed;
 
-if (image_angle <= angleTarget - spd)
-	image_angle += spd;
+if (angle <= angleTarget - spd)
+	angle += spd;
 
-if (image_angle > angleTarget + spd)
-	image_angle -= spd;
+if (angle > angleTarget + spd)
+	angle -= spd;
 
 if (dist <= .5)
-	angleTarget = random_range(-5, 5);
+	angleTarget = random_range(-windStrength, windStrength);
 
 // Set the tree opacity
 if (instance_exists(obj_combat))

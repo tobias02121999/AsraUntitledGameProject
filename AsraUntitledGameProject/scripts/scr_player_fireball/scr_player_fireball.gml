@@ -1,7 +1,7 @@
 // Shoot fireballs forward
 
 // Shoot fireballs on user input
-if (obj_manager.iSelect && ammo >= 1 && alarm[0] <= 0)
+if (iSelect && ammo >= 1 && alarm[0] <= 0)
 {
 	var obj = instance_create_layer(x, y, "Projectiles", obj_fireball);
 	obj.isFriendly = true;

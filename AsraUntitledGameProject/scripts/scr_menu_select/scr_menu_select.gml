@@ -1,7 +1,7 @@
 // Select a menu button
 
 // Get user input
-var iUp = obj_manager.iUpPressed;
+var iUp = obj_player.iUpPressed;
 var iDown = obj_manager.iDownPressed;
 
 var iSelect = obj_manager.iSelect;

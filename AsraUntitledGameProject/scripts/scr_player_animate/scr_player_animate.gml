@@ -11,18 +11,38 @@ else
 	if (isMoving)
 	{
 		if (movementDirection >= 135 && movementDirection <= 225)
-			sprite_index = sprWalkLeft;
+		{
+			if (isSprinting)
+				sprite_index = sprRunLeft;
+			else
+				sprite_index = sprWalkLeft;
+		}
 
 		if (movementDirection <= 45 || (movementDirection >= 315 && movementDirection < 360))
-			sprite_index = sprWalkRight;
+		{
+			if (isSprinting)
+				sprite_index = sprRunRight;
+			else
+				sprite_index = sprWalkRight;
+		}
 
 		if (movementDirection > 45 && movementDirection < 135)
-			sprite_index = sprWalkUp;
+		{
+			if (isSprinting)
+				sprite_index = sprRunUp;
+			else
+				sprite_index = sprWalkUp;
+		}
 
 		if (movementDirection > 225 && movementDirection < 315)
-			sprite_index = sprWalkDown;
+		{
+			if (isSprinting)
+				sprite_index = sprRunDown;
+			else
+				sprite_index = sprWalkDown;
+		}
 		
-		image_speed = 1;
+		image_speed = .5;
 	}
 	else
 		image_speed = 0;
