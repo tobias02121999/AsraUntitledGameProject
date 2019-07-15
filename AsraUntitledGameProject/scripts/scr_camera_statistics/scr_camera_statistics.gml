@@ -1,6 +1,5 @@
 // Initialize the camera statistics
 
 // Define the camera statistics variables
-threshold = 0;
-lerpRate = .1;
-followTarget = obj_player;
+lerpRate = .1; // The rate in which the camera lerps towards its follow target
+followTarget = obj_player_0; // The target the camera will follow

@@ -2,5 +2,4 @@
 event_inherited();
 
 // Customize the projectile variables
-movementSpeed = 5;
-damage = 1;
+movementSpeed = 5; // The movement speed of the projectile

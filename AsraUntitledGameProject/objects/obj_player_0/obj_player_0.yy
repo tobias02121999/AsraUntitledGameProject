@@ -1,14 +1,14 @@
 {
-    "id": "4588fa47-75b3-4cf9-b93a-f91c1884d0b5",
+    "id": "7b70aaf8-083d-4e95-ab9f-e283be8427b1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_camera_2",
+    "name": "obj_player_0",
     "eventList": [
         
     ],
-    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "maskSpriteId": "8c2b0177-9252-4b8e-8c2f-86796ad159b1",
     "overriddenProperties": null,
-    "parentObjectId": "27ec8879-a8b4-4cda-a696-b709109a8c15",
+    "parentObjectId": "e1b341f5-b1b9-4635-b20c-ca25a9b4d769",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "c5ce9ec4-1500-4804-9fab-5e937369a500",
     "visible": true
 }

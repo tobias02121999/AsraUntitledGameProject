@@ -14,5 +14,5 @@ buttonDistanceX = 0; // The distance between the buttons on the X axis
 buttonDistanceY = 16; // The distance between the buttons on the Y axis
 
 buttonSprite[0] = spr_button; // The sprite of the button
-buttonID[0] = 0; // The script of the button
+buttonID[0] = 0; // The event ID of the button
 buttonText[0] = "none"; // The text displayed on the button

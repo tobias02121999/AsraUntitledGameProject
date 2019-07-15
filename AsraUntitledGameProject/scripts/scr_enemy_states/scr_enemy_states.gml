@@ -15,7 +15,7 @@ switch (enemyState)
 		
 	// The dodging enemy state
 	case "DODGE":
-		scr_enemy_dodge();
+		scr_enemy_dodge(); // Dodge incoming fire
 		scr_enemy_die(); // Check for death
 		break;
 		

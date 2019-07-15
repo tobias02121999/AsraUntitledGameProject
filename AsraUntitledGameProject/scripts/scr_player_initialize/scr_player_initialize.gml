@@ -1,6 +1,6 @@
-// Initialize the player
+// Initialize the player object
 
-// Get the player statistics
+// Initialize the player statistics
 scr_player_statistics();
 
 // Get the player sprites
@@ -22,8 +22,8 @@ movementSpeed = movementSpeedWalking; // The amount of force added to the player
 maxVelocity = maxVelocityWalking; // The maximum velocity the player can reach
 isSprinting = false; // Keeps track of if the player is currently sprinting or not
 playerID = 0; // The players current ID
-iSelect = false;
-selectPressed = false;
+iSelect = false; // If the select button trigger has been activated
+selectPressed = false; // If the select button is currently pressed down
 
 // Get the user input
-scr_manager_getInput(playerID);
+scr_player_getInput(playerID);

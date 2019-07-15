@@ -29,7 +29,7 @@
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "9589602e-b663-408d-a5b0-572274ac448f",
+            "collisionObjectId": "3a66f97d-e99a-440e-ade9-4efff84ad553",
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "19f42455-df1b-4c08-a66b-b3f1e21ec2a9"

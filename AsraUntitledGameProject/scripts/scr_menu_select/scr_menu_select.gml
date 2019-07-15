@@ -1,10 +1,10 @@
 // Select a menu button
 
 // Get user input
-var iUp = obj_player.iUpPressed;
-var iDown = obj_manager.iDownPressed;
+var iUp = global.host.iUpPressed;
+var iDown = global.host.iDownPressed;
 
-var iSelect = obj_manager.iSelect;
+var iSelect = global.host.iSelect;
 
 // Scroll up or down through the menu
 if (iUp)
@@ -27,5 +27,5 @@ if (iDown)
 if (iSelect)
 {
 	var ID = buttonID[selectedButton];
-	scr_menu_buttonEvent(ID);
+	scr_menu_buttonEvent(ID); // Run the appropriate code for the selected button
 }

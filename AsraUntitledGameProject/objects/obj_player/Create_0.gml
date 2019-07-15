@@ -1,2 +1,2 @@
-// Initialize the player
+// Initialize the player object
 scr_player_initialize();

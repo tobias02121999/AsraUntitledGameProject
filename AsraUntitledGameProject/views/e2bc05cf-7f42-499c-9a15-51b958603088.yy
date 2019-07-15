@@ -4,10 +4,11 @@
     "mvc": "1.1",
     "name": "e2bc05cf-7f42-499c-9a15-51b958603088",
     "children": [
-        "31651037-5a69-45fb-8156-ae833a9d2009"
+        "e0b5b05c-f4cd-4a9f-b31d-2d3b4c0370b0",
+        "3f8b5cdf-1b51-4e5d-a158-1825a4e1792e"
     ],
     "filterType": "GMScript",
-    "folderName": "Manager",
+    "folderName": "Controller",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

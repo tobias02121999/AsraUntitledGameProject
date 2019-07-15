@@ -16,11 +16,3 @@ if (abs(lenX) <= abs(x - target.x))
 
 if (abs(lenY) <= abs(y - target.y))
 	y += lenY;
-
-/*
-if (lenX < dist)
-{
-	x += lenX;
-	y += lenY;
-}
-*/

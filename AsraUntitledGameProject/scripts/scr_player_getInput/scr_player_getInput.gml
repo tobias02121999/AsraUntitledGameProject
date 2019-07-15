@@ -23,6 +23,9 @@ switch (ID)
 		iUpPressed = (keyboard_check_pressed(vk_up) || gamepad_button_check_pressed(0, gp_padu));
 		iDownPressed = (keyboard_check_pressed(vk_down) || gamepad_button_check_pressed(0, gp_padd));
 
+		iJoin = keyboard_check_pressed(vk_enter);	
+		iLeave = false;
+
 		select = (keyboard_check(vk_space) || gamepad_button_check(0, gp_face1));
 		break;
 		
@@ -36,6 +39,8 @@ switch (ID)
 
 		iUpPressed = keyboard_check_pressed(vk_up);
 		iDownPressed = keyboard_check_pressed(vk_down);
+		
+		iLeave = keyboard_check_pressed(vk_backspace);
 		
 		select = keyboard_check(vk_space);
 		break;

@@ -1,4 +1,4 @@
 // Initialize the camera
 
-// Get the camera statistics
+// Initialize the camera statistics
 scr_camera_statistics();

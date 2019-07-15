@@ -1,6 +1,6 @@
 // Abort the current combat
 
-// Reset the players
+// Reset the player and enemy
 var player = obj_player;
 var enemy = player.target;
 		

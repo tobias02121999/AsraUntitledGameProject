@@ -1,6 +1,6 @@
 // Initialize the enemy
 
-// Get the enemy statistics
+// Initialize the enemy statistics
 scr_enemy_statistics();
 
 // Initialize the enemy system variables

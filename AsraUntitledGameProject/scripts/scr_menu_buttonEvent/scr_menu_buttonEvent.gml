@@ -63,6 +63,7 @@ switch (buttonID)
 		room_goto(rm_main);
 		break;
 		
+	// The item potion button
 	case 9:
 		with (obj_player) scr_player_potion(); // Use a potion
 		break;
