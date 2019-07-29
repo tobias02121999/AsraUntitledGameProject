@@ -6,6 +6,7 @@ switch (enemyState)
 	// The overworld enemy state
 	case "OVERWORLD":
 		scr_enemy_interact(); // Interact with the player and go into combat
+		scr_enemy_die(); // Check for death
 		break;
 		
 	// The frozen enemy state

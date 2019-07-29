@@ -1007,6 +1007,14 @@
             }
         },
         {
+            "Key": "5a44cd70-20bd-4e77-841b-bc19af7b4ffc",
+            "Value": {
+                "id": "bd1c8e1e-2520-4873-9005-30a8172803ff",
+                "resourcePath": "rooms\\rm_combat\\rm_combat.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "5abbc16f-d76f-44b6-b6a6-200af39e6a8a",
             "Value": {
                 "id": "8178033e-4e92-4183-947f-223bd3ae32a4",
@@ -1220,14 +1228,6 @@
                 "id": "afc30c82-35d9-4cbf-8eda-8510459f03b8",
                 "resourcePath": "sprites\\spr_male_0_3_walk_down\\spr_male_0_3_walk_down.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "78cee596-bca4-40dc-9d48-45881cf6043a",
-            "Value": {
-                "id": "4beaea0e-a211-4465-8d32-e70ca1b645bb",
-                "resourcePath": "scripts\\scr_combat_background\\scr_combat_background.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -2428,7 +2428,6 @@
         "3f8b5cdf-1b51-4e5d-a158-1825a4e1792e",
         "171dca85-2eed-453d-8c9d-8f751ddeeba9",
         "c33e788b-deeb-4e52-a412-55ba0fc3af0f",
-        "78cee596-bca4-40dc-9d48-45881cf6043a",
         "36e96c9a-e05c-4967-ba34-280fdedeeb1f",
         "130379e2-4241-4029-9ed0-39c8c3e23ec5",
         "4b8726cc-1a3b-48bd-a222-4336df3ed111",

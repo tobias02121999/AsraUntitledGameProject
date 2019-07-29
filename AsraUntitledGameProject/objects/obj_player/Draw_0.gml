@@ -3,3 +3,6 @@ draw_sprite_ext(sprite_index, image_index, x, (y + (sprite_get_height(sprite_ind
 
 // Draw the player
 draw_self();
+
+draw_set_font(-1);
+draw_text(mouse_x, mouse_y, instance_number(obj_enemy));

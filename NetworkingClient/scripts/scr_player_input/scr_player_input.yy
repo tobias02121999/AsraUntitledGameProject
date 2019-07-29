@@ -1,8 +1,8 @@
 {
-    "id": "78cee596-bca4-40dc-9d48-45881cf6043a",
+    "id": "3cf4eb40-8e46-4ed8-9cba-c6225d274360",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_combat_background",
+    "name": "scr_player_input",
     "IsCompatibility": false,
     "IsDnD": false
 }

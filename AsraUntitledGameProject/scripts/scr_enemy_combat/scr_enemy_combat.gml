@@ -1,5 +1,7 @@
 // Engage into combat mode
 
+room_goto(rm_combat);
+
 // Get the player object
 var player = obj_player;
 
@@ -17,7 +19,7 @@ player.target = self.id;
 var posX = obj_camera.x;
 var posY = obj_camera.y;
 
-var obj = instance_create_layer(posX, posY, "Combat", obj_combat);
+var obj = instance_create_layer(192, 108.5, "Combat", obj_combat);
 
 // Teleport the player and the enemy to their combat positions
 var playerPosX = obj.playerPosX;

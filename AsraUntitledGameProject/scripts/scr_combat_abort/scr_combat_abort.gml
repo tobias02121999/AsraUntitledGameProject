@@ -9,7 +9,7 @@ player.y = player.overworldPosY;
 		
 enemy.x = enemy.overworldPosX;
 enemy.y = enemy.overworldPosY;
-		
+
 player.playerState = "OVERWORLD";
 enemy.enemyState = "OVERWORLD";
 		
@@ -18,3 +18,7 @@ enemy.alarm[0] = 2;
 // Destroy the combat UI elements
 with (obj_combat) instance_destroy();
 with (obj_menu) instance_destroy();
+
+with (enemy) instance_destroy();
+
+room_goto(rm_game);
