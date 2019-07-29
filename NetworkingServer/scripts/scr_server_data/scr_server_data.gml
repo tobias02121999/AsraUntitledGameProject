@@ -5,6 +5,20 @@ var clientID = buffer_read(buffer, buffer_u8);
 
 switch (messageID)
 {
+	case 0:
+		// Synchronise the client stats with the server
+		var timerOld = ds_list_find_value(connectionTimer, clientID);
+		var timerNew = buffer_read(buffer, buffer_u16); 
+		
+		if (timerNew != timerOld)
+			ds_list_set(connectionTimer, clientID, timerNew);
+		else
+		{
+			ds_list_delete(socket, clientID);
+			show_message("A client has disconnected...");
+		}
+		break;
+	
 	case 2:
 		// Verify the player input
 		var iHorizontal = buffer_read(buffer, buffer_f32);
@@ -39,6 +53,5 @@ switch (messageID)
 				network_send_packet(target, buffer, buffer_tell(buffer));
 			}
 		}
-		
 		break;
 }

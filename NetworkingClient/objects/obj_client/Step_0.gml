@@ -13,3 +13,12 @@ for (var i = 0; i <= clientCount - 1; i++)
 		ds_list_set(playerClient, i, obj);
 	}
 }
+
+// Synchronise the client stats with the server
+connectionTimer++;
+
+buffer_seek(buffer, buffer_seek_start, 0);
+buffer_write(buffer, buffer_u8, 0);
+buffer_write(buffer, buffer_u8, clientID);
+buffer_write(buffer, buffer_u16, connectionTimer);
+network_send_packet(socket, buffer, buffer_tell(buffer));

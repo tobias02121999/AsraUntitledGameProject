@@ -14,3 +14,5 @@ clientID = 0;
 clientCount = 0;
 
 playerClient = ds_list_create();
+
+connectionTimer = 0;

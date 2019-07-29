@@ -11,3 +11,4 @@ var alignment = 1;
 buffer = buffer_create(size, type, alignment);
 
 clientCount = 0;
+connectionTimer = ds_list_create();

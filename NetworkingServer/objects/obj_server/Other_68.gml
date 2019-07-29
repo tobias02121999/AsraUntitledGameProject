@@ -7,6 +7,7 @@ switch (typeEvent)
 		if (clientCount <= maxClients - 1)
 		{
 			ds_list_add(socket, async_load[? "socket"]);
+			ds_list_add(connectionTimer, 0);
 			
 			var ID = ds_list_size(socket) - 1;
 			var target = ds_list_find_value(socket, ID);
@@ -20,8 +21,6 @@ switch (typeEvent)
 		
 	case network_type_disconnect:
 		// Remove the client from the socket variable
-		ds_list_destroy(socket);
-		clientCount--;
 		break;
 		
 	case network_type_data:
